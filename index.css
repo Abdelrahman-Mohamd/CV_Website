@@ -1,0 +1,115 @@
+body{
+    background-color: #111111;
+    padding-top: 70px; /*70px nabar height*/
+
+}
+h1,h2,h3{
+    color:white;
+}
+h1{
+    font-size: 2.5rem;
+}
+p, li{
+    color:#ababab;
+}
+#myImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#myImage h2{
+    font-size: 1rem;
+    color:#ababab;
+    letter-spacing: 5px;
+}
+#myImage .myPersonalImage{
+    border-radius: 50%;
+    height: auto;
+    width: 10%;
+    margin-bottom: 25px;
+}
+.navbar{
+    background-color: #111111;
+}
+.navbar .navbar-toggler{
+    background-color:#ababab ;
+    transition:  background-color 0.25s;
+}
+.navbar .navbar-toggler:hover{
+    background-color:#dad5d5 ;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #ababab;
+    transition: all 0.5s;
+    border-bottom:2px solid #ababab;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom:2px solid #d5ee5b ;
+    /* box-shadow: 0 0.5em 0.5em -0.4em #d5ee5b; */
+    transform: translatey(-2px);
+}
+#AboutMe{
+    background-color: #191919;
+    padding: 60px;
+    border-radius: 5%;
+    margin-bottom: 100px;
+}
+#AboutMe .AboutMeAttachments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#AboutMe hr{
+    height: 1px;
+    background-color: #d5ee5b;
+    width: 40%;
+    margin-bottom: 30px;
+}
+#AboutMe .icon{
+    row-gap: 10px;
+    margin: 10px;
+    color: #ababab;
+}
+#AboutMe p:last-child{
+    margin-bottom: 50px;
+}
+#AboutMe .starIcon{
+    color: #d5ee5b;
+}
+#AboutMe .starIcon:first-child{
+   margin-left: 10px;
+}
+#AboutMe .starIcon2{
+    color: #d5ee5b;
+}
+#AboutMe .starIcon2:first-child{
+    margin-left: 5px;
+ }
+#ContactMe{
+    background-color: #191919;
+    padding: 60px;
+    border-radius: 3%;
+    margin-bottom: 100px;
+    
+}
+#ContactMe .ContactMeAttachments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ContactMe hr{
+    height: 1px;
+    background-color: #d5ee5b;
+    width: 40%;
+    margin-bottom: 30px;
+}
+#ContactMe .icon{
+    row-gap: 10px;
+    margin: 10px;
+    color: #ababab;
+}
